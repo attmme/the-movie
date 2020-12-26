@@ -18,8 +18,15 @@
       "Clancy Brown",
       "Gil Bellows"
     ],
-    "room": 5
-  }, {
+    "room": 5,
+    "schedule": [
+      "Wednesday - 19:45h",
+      "Thrusday - 18:50h",
+      "Friday - 20:15h"
+    ]
+  },
+
+  {
     "id": 2,
     "title": "The Godfather",
     "poster": "https://i.imgur.com/Uzvny9I.jpg",
@@ -37,8 +44,15 @@
       "Robert Duvall",
       "Sterling Hayden"
     ],
-    "room": 4
-  }, {
+    "room": 4,
+    "schedule": [
+      "Wednesday - 19:45h",
+      "Thrusday - 18:50h",
+      "Friday - 20:15h"
+    ]
+  },
+
+  {
     "id": 3,
     "title": "The Godfather Part II",
     "poster": "https://i.imgur.com/abJNkWI.jpg",
@@ -56,8 +70,15 @@
       "John Cazale",
       "Talia Shire"
     ],
-    "room": 1
-  }, {
+    "room": 1,
+    "schedule": [
+      "Wednesday - 19:45h",
+      "Thrusday - 18:50h",
+      "Friday - 20:15h"
+    ]
+  },
+
+  {
     "id": 4,
     "title": "The Dark Knight",
     "poster": "https://i.imgur.com/3jLPB46.jpg",
@@ -75,8 +96,15 @@
       "Maggie Gyllenhaal",
       "Gary Oldman"
     ],
-    "room": 3
-  }, {
+    "room": 3,
+    "schedule": [
+      "Wednesday - 19:45h",
+      "Thrusday - 18:50h",
+      "Friday - 20:15h"
+    ]
+  }, 
+  
+  {
     "id": 5,
     "title": "Schindler's List",
     "poster": "https://i.imgur.com/IWZJOmu.jpg",
@@ -94,6 +122,11 @@
       "Jonathan Sagall",
       "Embeth Dav"
     ],
-    "room": 2
+    "room": 2,
+    "schedule": [
+      "Wednesday - 19:45h",
+      "Thrusday - 18:50h",
+      "Friday - 20:15h"
+    ]
   }
 ]

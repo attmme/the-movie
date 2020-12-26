@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PeliculasService } from '../../shared/peliculas.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-my-movie-component',
@@ -8,11 +9,14 @@ import { PeliculasService } from '../../shared/peliculas.service';
 })
 export class MyMovieComponentComponent implements OnInit {
 
-  constructor(private pelis: PeliculasService) {}
+  constructor(private pelis: PeliculasService, private route: ActivatedRoute) { }
 
-  pelicula = this.pelis.getMovie(1)[0];
+  pelicula;
 
   ngOnInit(): void {
+    const id = this.route.snapshot.paramMap.get('id');
+    this.pelicula = this.pelis.getMovie(id)[0];
+
   }
 
 }

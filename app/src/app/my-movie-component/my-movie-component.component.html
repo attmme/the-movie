@@ -1,12 +1,32 @@
 <main>
     <article>
         <section class="peli">
-            <img src={{pelicula.poster}}>
+            <div class="left">
+                <img src={{pelicula.poster}}>
+            </div>
+
+            <ul class="right">
+                <li id="title">{{pelicula.title}}</li>
+                <li id="year"><b>Año:</b> {{pelicula.year}}</li>
+                <li id="director"><b>Director:</b> {{pelicula.director}}</li>
+                <p id="actitle"><b>Actors:</b></p>
+                <li *ngFor="let ac of pelicula.actors" id="actors">
+                    {{ac}}
+                </li>
+                <p id="shtitle"><b>Schedule:</b></p>
+                <li *ngFor="let sh of pelicula.schedule" id="schedule">
+                    {{sh}}
+                </li>
+
+                <p id="synopsis"><b>Synopsis:</b></p>
+                <li>
+                    {{pelicula.synopsis}}
+
+                </li>
+            </ul>
         </section>
 
-        <section class="home">
-
-        </section>
+        <button routerLink="/home">BACK TO HOME</button>
     </article>
 
 </main>
