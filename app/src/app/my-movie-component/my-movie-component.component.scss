@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+  width: 100%;
+  min-height: 100%;
+
+  background-image: url("./../../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  article {
+    position: fixed;
+
+    width: 40%;
+    height: 60%;
+    background-color: black;
+
+    .peli {
+      img {
+        width: 50%;
+        height: 100%;
+      }
+    }
+
+    .home {}
+
+  }
+}

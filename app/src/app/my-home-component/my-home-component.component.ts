@@ -12,8 +12,6 @@ export class MyHomeComponentComponent implements OnInit {
 
   pelicules = this.pelis.getMovies();
 
-  ngOnInit(): void {
-
-  }
+  ngOnInit(): void {}
 
 }
