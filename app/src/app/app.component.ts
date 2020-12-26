@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { PeliculasService } from '../shared/peliculas.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,18 +6,7 @@ import { PeliculasService } from '../shared/peliculas.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
-
-  constructor(
-    private pel: PeliculasService
-  ) {
-    
-    let pelis = pel.getMovie(1);
-
-    console.log(pelis)
-  }
-
-
+  title = 'Movies';
 }
 
 
